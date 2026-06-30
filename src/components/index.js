@@ -8,7 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-
+import ProjectCard from "./ProjectCard";
+import ProjectsPage from "./ProjectsPage";
 
 export {
   Hero,
@@ -20,6 +21,8 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
+  ProjectCard,
+  ProjectsPage,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 

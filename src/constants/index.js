@@ -41,6 +41,11 @@ import {
   kharisma,
   yoda,
   aip,
+  taskvibeweb,
+  suitmediaweb,
+  courtykweb,
+  klasifikasijalanweb,
+  warmindoweb,
 } from "../assets";
 
 export const navLinks = [
@@ -219,6 +224,7 @@ const projects = [
     ],
     image: leaforyweb,
     source_code_link: "",
+    website_link: "https://leaforyuniverse.site",
   },
   {
     name: "Twiend.Co",
@@ -261,6 +267,137 @@ const projects = [
     ],
     image: sipedumasweb,
     source_code_link: "https://github.com/anangsp9/Sipedumas-V1",
+  },
+  {
+    name: "Twiend.Co2",
+    description:
+      "Web application that allows users to browse the coffee shop's menu, discover featured drinks and snacks, and find the shop's location for an enjoyable visit.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: twiendweb,
+    source_code_link: "",
+  },
+  {
+    name: "TaskVibe Web",
+    description:
+      "A modern task management dashboard designed to boost productivity by allowing users to seamlessly organize projects, set dynamic priorities, and track daily progress via an intuitive user interface.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskvibeweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "",
+    website_link: "",
+  },
+  {
+    name: "Court YK",
+    description:
+      "An online sports court booking platform built to simplify reservations, check real-time schedule availability, and streamline payment verification for sports enthusiasts in Yogyakarta.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: courtykweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "",
+    website_link: "",
+  },
+  {
+    name: "Warmindo Delisa Ciremai",
+    description:
+      "A digital menu and point-of-sale (POS) web application tailored for Warmindo Delisa Ciremai, enhancing customer dine-in experiences with fast browsing and automated order calculations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: warmindoweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "",
+    website_link: "",
+  },
+  {
+    name: "Suitmedia Project Test",
+    description:
+      "A robust web application developed as a technical assessment for Suitmedia, featuring optimized API integration, advanced data pagination, and state sorting mechanisms.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: suitmediaweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "",
+    website_link: "",
+  },
+  {
+    name: "Web Klasifikasi Jalan",
+    description:
+      "An intelligent web-based mapping and classification system designed to analyze road infrastructure conditions, detect real-time damage, and categorize road types for enhanced safety inspections.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: klasifikasijalanweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "",
+    website_link: "",
   },
 ];
 

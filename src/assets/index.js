@@ -47,10 +47,17 @@ import leaforyweb from "./leaforyweb.jpg";
 import twiendweb from "./twiendweb.jpg";
 import sipedumasweb from "./sipedumasweb.jpg";
 import python from "./tech/python.png"
+import globe from "./globe.svg"
 
 import kharisma from "./kharisma.png";
 import yoda from "./yoda.png";
 import aip from "./aip.png";
+
+import courtykweb from "./courtykweb.jpg";
+import klasifikasijalanweb from "./klasifikasijalanweb.jpg";
+import suitmediaweb from "./suitmediaweb.jpg";
+import taskvibeweb from "./taskvibeweb.jpg";
+import warmindoweb from "./warmindoweb.jpg"
 
 export {
   logo,
@@ -99,4 +106,10 @@ export {
   kharisma,
   yoda,
   aip,
+  globe,
+  taskvibeweb,
+  suitmediaweb,
+  courtykweb,
+  warmindoweb,
+  klasifikasijalanweb,
 };
