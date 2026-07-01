@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 .env
-AGENTS.MD
+*AGENTS.MD
 
 # vscode
 .vscode
