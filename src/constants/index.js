@@ -227,6 +227,50 @@ const projects = [
     website_link: "https://leaforyuniverse.site",
   },
   {
+    name: "TaskVibe Web",
+    description:
+      "A modern task management dashboard designed to boost productivity by allowing users to seamlessly organize projects, set dynamic priorities, and track daily progress via an intuitive user interface.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskvibeweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "https://github.com/anangsp9/TaskVibe-Web",
+    website_link: "https://taskvibeweb.netlify.app/",
+  },
+  {
+    name: "Court YK",
+    description:
+      "An online sports court booking platform built to simplify reservations, check real-time schedule availability, and streamline payment verification for sports enthusiasts in Yogyakarta.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: courtykweb, // Ganti sesuai dengan variabel gambar Anda
+    source_code_link: "https://github.com/anangsp9/CourtYK",
+    website_link: "",
+  },
+  {
     name: "Twiend.Co",
     description:
       "Web application that allows users to browse the coffee shop's menu, discover featured drinks and snacks, and find the shop's location for an enjoyable visit.",
@@ -245,7 +289,8 @@ const projects = [
       },
     ],
     image: twiendweb,
-    source_code_link: "",
+    source_code_link: "https://github.com/anangsp9/twiend-final",
+    website_link : "https://twiendcoffee.vercel.app/",
   },
   {
     name: "Sipedumas",
@@ -269,74 +314,9 @@ const projects = [
     source_code_link: "https://github.com/anangsp9/Sipedumas-V1",
   },
   {
-    name: "Twiend.Co2",
-    description:
-      "Web application that allows users to browse the coffee shop's menu, discover featured drinks and snacks, and find the shop's location for an enjoyable visit.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: twiendweb,
-    source_code_link: "",
-  },
-  {
-    name: "TaskVibe Web",
-    description:
-      "A modern task management dashboard designed to boost productivity by allowing users to seamlessly organize projects, set dynamic priorities, and track daily progress via an intuitive user interface.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: taskvibeweb, // Ganti sesuai dengan variabel gambar Anda
-    source_code_link: "",
-    website_link: "",
-  },
-  {
-    name: "Court YK",
-    description:
-      "An online sports court booking platform built to simplify reservations, check real-time schedule availability, and streamline payment verification for sports enthusiasts in Yogyakarta.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "laravel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: courtykweb, // Ganti sesuai dengan variabel gambar Anda
-    source_code_link: "",
-    website_link: "",
-  },
-  {
     name: "Warmindo Delisa Ciremai",
     description:
-      "A digital menu and point-of-sale (POS) web application tailored for Warmindo Delisa Ciremai, enhancing customer dine-in experiences with fast browsing and automated order calculations.",
+      "An informative landing page for Warmindo Delisa Ciremai, designed to showcase the menu and essential business information. Built with a responsive design, it ensures a seamless and visually engaging experience for customers across all devices.",
     tags: [
       {
         name: "html",
@@ -352,8 +332,8 @@ const projects = [
       },
     ],
     image: warmindoweb, // Ganti sesuai dengan variabel gambar Anda
-    source_code_link: "",
-    website_link: "",
+    source_code_link: "https://github.com/anangsp9/warmindodelisaciremai",
+    website_link: "https://warmindodelisaciremai.vercel.app/",
   },
   {
     name: "Suitmedia Project Test",
@@ -361,43 +341,43 @@ const projects = [
       "A robust web application developed as a technical assessment for Suitmedia, featuring optimized API integration, advanced data pagination, and state sorting mechanisms.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: suitmediaweb, // Ganti sesuai dengan variabel gambar Anda
-    source_code_link: "",
-    website_link: "",
+    source_code_link: "https://github.com/anangsp9/Suitmedia-project-test",
+    website_link: "https://suitmedia-test-anangsp.vercel.app/",
   },
   {
     name: "Web Klasifikasi Jalan",
     description:
-      "An intelligent web-based mapping and classification system designed to analyze road infrastructure conditions, detect real-time damage, and categorize road types for enhanced safety inspections.",
+      "An AI-powered web tool that uses a custom-trained MobileNetV2 model and Flask to detect and categorize road damage in real-time. It delivers a high accuracy of 96.13% in identifying various road surface conditions, streamlining infrastructure safety inspections.",
     tags: [
       {
         name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "fastapi",
+        name: "mobilenetv2",
         color: "pink-text-gradient",
       },
     ],
     image: klasifikasijalanweb, // Ganti sesuai dengan variabel gambar Anda
-    source_code_link: "",
-    website_link: "",
+    source_code_link: "https://github.com/anangsp9/web-klasifikasi-jalan-rusak",
+    website_link: "http://klasifikasijalanrusak.site/",
   },
 ];
 
