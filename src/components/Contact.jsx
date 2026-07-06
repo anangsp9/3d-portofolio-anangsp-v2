@@ -30,7 +30,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
   e.preventDefault();
 
-  const to = "anangsepriyantop@students.amikom.ac.id";
+  const to = "anangsepriyantop@gmail.com";
   const subject = encodeURIComponent(`Pesan dari ${form.name}`);
   const body = encodeURIComponent(
     `Nama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}`
