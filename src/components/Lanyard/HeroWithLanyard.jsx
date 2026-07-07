@@ -13,10 +13,19 @@ const HeroWithLanyard = () => {
   }, []);
 
   return (
-    <section className="w-full h-screen flex flex-col-reverse lg:flex-row">
-      {/* SECTION KIRI (Mobile: bawah, Desktop: kiri) */}
+    <section className="relative w-full h-screen flex flex-col lg:flex-row">
+      {/* Lanyard - full screen overlay (mobile & desktop) */}
+      <section className="absolute inset-0 z-20 flex justify-center items-start">
+        <Lanyard
+          position={[0, 0, 20]}
+          gravity={[0, -40, 0]}
+          fov={isMobile ? 32 : 20}
+        />
+      </section>
+
+      {/* Text - mobile: di bawah, desktop: di kiri */}
       <section
-        className={`flex-1 flex flex-col justify-center items-start ${styles.paddingX} relative z-10`}
+        className={`flex-1 flex flex-col justify-end lg:justify-center items-start ${styles.paddingX} pb-32 lg:pb-0 relative z-10`}
       >
         {/* Garis Dekoratif dan Tulisan */}
         <div className="flex flex-row items-start gap-3">
@@ -27,18 +36,10 @@ const HeroWithLanyard = () => {
 
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Welcome to <span className="text-[#915EFF]">My Portofolio</span>
+              Welcome to<br /><span className="text-[#915EFF]">My Portofolio</span>
             </h1>
           </div>
         </div>
-      </section>
-
-      {/* SECTION KANAN (Mobile: atas, Desktop: kanan) */}
-      <section className="flex-1 h-full relative z-0 flex justify-center items-start pt-16 lg:pt-0">
-        <Lanyard
-          position={isMobile ? [0, -2, 20] : [0, 0, 20]} // ✅ geser ke bawah kalau mobile
-          gravity={[0, -40, 0]}
-        />
       </section>
     </section>
   );

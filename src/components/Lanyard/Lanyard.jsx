@@ -96,7 +96,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
 
   return (
     <>
-      <group position={[0, 4, 0]}>
+      <group position={isSmall ? [0, 6, 0] : [3, 4, 0]}>
         <RigidBody ref={fixed} {...segmentProps} type="fixed" />
         <RigidBody position={[0.5, 0, 0]} ref={j1} {...segmentProps}><BallCollider args={[0.1]} /></RigidBody>
         <RigidBody position={[1, 0, 0]} ref={j2} {...segmentProps}><BallCollider args={[0.1]} /></RigidBody>
@@ -115,10 +115,11 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
               <meshPhysicalMaterial
                 map={materials.base.map}
                 map-anisotropy={16}
-                clearcoat={1}
-                clearcoatRoughness={0.15}
+                clearcoat={0.6}
+                clearcoatRoughness={0.8}
                 roughness={0.9}
                 metalness={0.8}
+                envMapIntensity={0.6}
               />
             </mesh>
             <mesh geometry={nodes.clip.geometry} material={materials.metal} material-roughness={0.3} />
